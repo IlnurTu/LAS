@@ -1,0 +1,72 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/liblas-src/cmake/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 24,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 31,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libLAS",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/liblas-build/cmake/liblas-config.cmake",
+				"cmake-build-debug/_deps/liblas-build/cmake/liblas-config-version.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/libLAS",
+			"exportName" : "depends",
+			"exportTargets" : 
+			[
+				{
+					"id" : "las::@85d06fb8056568a901f0",
+					"index" : 8
+				},
+				{
+					"id" : "las_c::@85d06fb8056568a901f0",
+					"index" : 13
+				}
+			],
+			"paths" : 
+			[
+				"_deps/liblas-build/cmake/CMakeFiles/Export/lib/cmake/libLAS/liblas-depends.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/liblas-build/cmake",
+		"source" : "cmake-build-debug/_deps/liblas-src/cmake"
+	}
+}

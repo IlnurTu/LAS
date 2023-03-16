@@ -1,0 +1,157 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/liblas-src/apps/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 171,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 215,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/lasinfo"
+			],
+			"targetId" : "lasinfo::@308366456ab369d94521",
+			"targetIndex" : 16,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/las2las"
+			],
+			"targetId" : "las2las::@308366456ab369d94521",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/txt2las"
+			],
+			"targetId" : "txt2las::@308366456ab369d94521",
+			"targetIndex" : 20,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/las2col"
+			],
+			"targetId" : "las2col::@308366456ab369d94521",
+			"targetIndex" : 9,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/las2pg"
+			],
+			"targetId" : "las2pg::@308366456ab369d94521",
+			"targetIndex" : 11,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/las2las"
+			],
+			"targetId" : "las2las::@308366456ab369d94521",
+			"targetIndex" : 10,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/lasblock"
+			],
+			"targetId" : "lasblock::@308366456ab369d94521",
+			"targetIndex" : 14,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/ts2las"
+			],
+			"targetId" : "ts2las::@308366456ab369d94521",
+			"targetIndex" : 19,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/las2txt"
+			],
+			"targetId" : "las2txt::@308366456ab369d94521",
+			"targetIndex" : 12,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/liblas-build/apps/liblas.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/liblas-build/apps",
+		"source" : "cmake-build-debug/_deps/liblas-src/apps"
+	}
+}

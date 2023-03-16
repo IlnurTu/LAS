@@ -1,0 +1,46 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug/_deps/liblas-subbuild/CMakeFiles/liblas-populate"
+		},
+		{
+			"file" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug/_deps/liblas-subbuild/CMakeFiles/liblas-populate.rule"
+		},
+		{
+			"file" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug/_deps/liblas-subbuild/CMakeFiles/liblas-populate-complete.rule"
+		},
+		{
+			"file" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug/_deps/liblas-subbuild/liblas-populate-prefix/src/liblas-populate-stamp/liblas-populate-build.rule"
+		},
+		{
+			"file" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug/_deps/liblas-subbuild/liblas-populate-prefix/src/liblas-populate-stamp/liblas-populate-configure.rule"
+		},
+		{
+			"file" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug/_deps/liblas-subbuild/liblas-populate-prefix/src/liblas-populate-stamp/liblas-populate-download.rule"
+		},
+		{
+			"file" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug/_deps/liblas-subbuild/liblas-populate-prefix/src/liblas-populate-stamp/liblas-populate-install.rule"
+		},
+		{
+			"file" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug/_deps/liblas-subbuild/liblas-populate-prefix/src/liblas-populate-stamp/liblas-populate-mkdir.rule"
+		},
+		{
+			"file" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug/_deps/liblas-subbuild/liblas-populate-prefix/src/liblas-populate-stamp/liblas-populate-patch.rule"
+		},
+		{
+			"file" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug/_deps/liblas-subbuild/liblas-populate-prefix/src/liblas-populate-stamp/liblas-populate-test.rule"
+		},
+		{
+			"file" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug/_deps/liblas-subbuild/liblas-populate-prefix/src/liblas-populate-stamp/liblas-populate-update.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"liblas-populate"
+		],
+		"name" : "liblas-populate"
+	}
+}

@@ -1,0 +1,103 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/liblas-src/src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 256,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 262,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/liblas.2.4.0.dylib",
+				"_deps/liblas-build/bin/Release/liblas.3.dylib"
+			],
+			"targetId" : "las::@85d06fb8056568a901f0",
+			"targetIndex" : 8,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/liblas.dylib"
+			],
+			"targetId" : "las::@85d06fb8056568a901f0",
+			"targetIndex" : 8,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/liblas_c.2.4.0.dylib",
+				"_deps/liblas-build/bin/Release/liblas_c.3.dylib"
+			],
+			"targetId" : "las_c::@85d06fb8056568a901f0",
+			"targetIndex" : 13,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/liblas-build/bin/Release/liblas_c.dylib"
+			],
+			"targetId" : "las_c::@85d06fb8056568a901f0",
+			"targetIndex" : 13,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/liblas-src/src/../include/liblas"
+			],
+			"type" : "directory"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/liblas-build/src",
+		"source" : "cmake-build-debug/_deps/liblas-src/src"
+	}
+}

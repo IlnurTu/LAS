@@ -1,0 +1,46 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"cmake-build-debug/_deps/liblas-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 341,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "share/liblas/doc",
+			"paths" : 
+			[
+				"cmake-build-debug/_deps/liblas-src/AUTHORS",
+				"cmake-build-debug/_deps/liblas-src/INSTALL",
+				"cmake-build-debug/_deps/liblas-src/LICENSE.txt",
+				"cmake-build-debug/_deps/liblas-src/README.txt"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/liblas-build",
+		"source" : "cmake-build-debug/_deps/liblas-src"
+	}
+}

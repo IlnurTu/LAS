@@ -1,0 +1,448 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						7
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Release-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "_deps/liblas-build",
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						6
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.liblas-build-Release-cda1553ef6efa726ce72.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.11"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/liblas-src",
+					"targetIndexes" : 
+					[
+						3
+					]
+				},
+				{
+					"build" : "_deps/liblas-build/src",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.liblas-build.src-Release-395670ff10d01ef2c701.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/liblas-src/src",
+					"targetIndexes" : 
+					[
+						8,
+						13
+					]
+				},
+				{
+					"build" : "_deps/liblas-build/apps",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.liblas-build.apps-Release-95a612a6ff0ef6a9fd87.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/liblas-src/apps",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						9,
+						10,
+						11,
+						12,
+						14,
+						15,
+						16,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"build" : "_deps/liblas-build/test",
+					"childIndexes" : 
+					[
+						5
+					],
+					"jsonFile" : "directory-_deps.liblas-build.test-Release-d0f68b80e38f02a1f942.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/liblas-src/test"
+				},
+				{
+					"build" : "_deps/liblas-build/test/unit",
+					"jsonFile" : "directory-_deps.liblas-build.test.unit-Release-5233c948c9fd43fd2f86.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.11"
+					},
+					"parentIndex" : 4,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/liblas-src/test/unit",
+					"targetIndexes" : 
+					[
+						17
+					]
+				},
+				{
+					"build" : "_deps/liblas-build/cmake",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.liblas-build.cmake-Release-420b47cee2e64272aca1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.11"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "cmake-build-debug/_deps/liblas-src/cmake"
+				},
+				{
+					"build" : "_deps/googletest-build",
+					"childIndexes" : 
+					[
+						8
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build-Release-fa1b18db30f420365ea4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.8.8"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 2,
+					"source" : "cmake-build-debug/_deps/googletest-src"
+				},
+				{
+					"build" : "_deps/googletest-build/googlemock",
+					"childIndexes" : 
+					[
+						9
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googlemock-Release-16c6848fbedf5fc1073a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 7,
+					"projectIndex" : 3,
+					"source" : "cmake-build-debug/_deps/googletest-src/googlemock",
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"build" : "_deps/googletest-build/googletest",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.googletest-build.googletest-Release-e38d85e37b2b981035fd.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.6.4"
+					},
+					"parentIndex" : 8,
+					"projectIndex" : 4,
+					"source" : "cmake-build-debug/_deps/googletest-src/googletest",
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Release",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						2
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "LASTest",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					],
+					"name" : "libLAS",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						3
+					],
+					"directoryIndexes" : 
+					[
+						7
+					],
+					"name" : "googletest-distribution",
+					"parentIndex" : 0
+				},
+				{
+					"childIndexes" : 
+					[
+						4
+					],
+					"directoryIndexes" : 
+					[
+						8
+					],
+					"name" : "gmock",
+					"parentIndex" : 2,
+					"targetIndexes" : 
+					[
+						4,
+						5
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						9
+					],
+					"name" : "gtest",
+					"parentIndex" : 3,
+					"targetIndexes" : 
+					[
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "LASTest::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-LASTest-Release-c4d33de9a1da333955de.json",
+					"name" : "LASTest",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bigfile_boost_iostreams_test::@308366456ab369d94521",
+					"jsonFile" : "target-bigfile_boost_iostreams_test-Release-2ca35be324cc5e01148f.json",
+					"name" : "bigfile_boost_iostreams_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "bigfile_test::@308366456ab369d94521",
+					"jsonFile" : "target-bigfile_test-Release-29fc7256882d4d8b0f50.json",
+					"name" : "bigfile_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "dist::@14e50685139e070c091f",
+					"jsonFile" : "target-dist-Release-4bc2c8276d8de71ba258.json",
+					"name" : "dist",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "gmock::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock-Release-cb5413bbc33e9f635331.json",
+					"name" : "gmock",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "gmock_main::@0f7bb11d64f3678238c7",
+					"jsonFile" : "target-gmock_main-Release-66360509a0ded4c23582.json",
+					"name" : "gmock_main",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "gtest::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest-Release-a0dd328969915561adbb.json",
+					"name" : "gtest",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "gtest_main::@1ea2dfc0605fe3ab2a3f",
+					"jsonFile" : "target-gtest_main-Release-c1917cc2fe96fae24a57.json",
+					"name" : "gtest_main",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "las::@85d06fb8056568a901f0",
+					"jsonFile" : "target-las-Release-114f3bf17174c3bb70e4.json",
+					"name" : "las",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "las2col::@308366456ab369d94521",
+					"jsonFile" : "target-las2col-Release-f2f178d41d1078790d26.json",
+					"name" : "las2col",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "las2las::@308366456ab369d94521",
+					"jsonFile" : "target-las2las-Release-32853366378e113199bd.json",
+					"name" : "las2las",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "las2pg::@308366456ab369d94521",
+					"jsonFile" : "target-las2pg-Release-d6718562209c0ecb536f.json",
+					"name" : "las2pg",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "las2txt::@308366456ab369d94521",
+					"jsonFile" : "target-las2txt-Release-a02273b6a76a9671b449.json",
+					"name" : "las2txt",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 2,
+					"id" : "las_c::@85d06fb8056568a901f0",
+					"jsonFile" : "target-las_c-Release-0e0fe9c082224465a677.json",
+					"name" : "las_c",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lasblock::@308366456ab369d94521",
+					"jsonFile" : "target-lasblock-Release-7be9b98ab2e16382f703.json",
+					"name" : "lasblock",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lasindex_test::@308366456ab369d94521",
+					"jsonFile" : "target-lasindex_test-Release-9cf7b190688d34157988.json",
+					"name" : "lasindex_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "lasinfo::@308366456ab369d94521",
+					"jsonFile" : "target-lasinfo-Release-9f1bb588bab952d042d5.json",
+					"name" : "lasinfo",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 5,
+					"id" : "liblas_test::@6ca77bcbfaba8feece26",
+					"jsonFile" : "target-liblas_test-Release-d71e67309a3bd39c790a.json",
+					"name" : "liblas_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "memleak_test::@308366456ab369d94521",
+					"jsonFile" : "target-memleak_test-Release-37f5d948e9c69efbbd4d.json",
+					"name" : "memleak_test",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "ts2las::@308366456ab369d94521",
+					"jsonFile" : "target-ts2las-Release-5d0ac62c9048a50c78a6.json",
+					"name" : "ts2las",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 3,
+					"id" : "txt2las::@308366456ab369d94521",
+					"jsonFile" : "target-txt2las-Release-d9865261e7cb8e2d5f51.json",
+					"name" : "txt2las",
+					"projectIndex" : 1
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/ilnurtuhvatulin/labs/LASTest/cmake-build-debug",
+		"source" : "/Users/ilnurtuhvatulin/labs/LASTest"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}
